@@ -12,17 +12,15 @@
   </head>
 
   <body>
-    
     <nav class="nav" id="nav">
       <div class="nav-center">
-        
         <div class="nav-header">
           <h3 class="nav-logo">Bereket.s</h3>
           <button class="nav-btn" id="nav-btn">
             <i class="fas fa-bars"></i>
           </button>
         </div>
-        
+
         <ul class="nav-links">
           <li><a href="index.html">home</a></li>
           <li><a href="about.html">about</a></li>
@@ -31,7 +29,7 @@
         </ul>
       </div>
     </nav>
-    
+
     <aside class="sidebar" id="sidebar">
       <div>
         <button id="close-btn" class="close-btn">
@@ -45,16 +43,22 @@
         </ul>
         <ul class="social-icons">
           <li>
-            <a href="https://www.facebook.com/beki.sami.338/" class="social-icon">
+            <a
+              href="https://www.facebook.com/beki.sami.338/"
+              class="social-icon"
+            >
               <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/bereket-samuel-aa20372a2/" class="social-icon">
+            <a
+              href="https://www.linkedin.com/in/bereket-samuel-aa20372a2/"
+              class="social-icon"
+            >
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
-           
+
           <li>
             <a href="https://www.instagram.com/bekiclover/" class="social-icon">
               <i class="fab fa-instagram"></i>
@@ -73,54 +77,94 @@
         </ul>
       </div>
     </aside>
-    
+
     <section class="section single-page">
       <div class="section-title">
         <h1>contact</h1>
         <div class="underline"></div>
       </div>
       <div class="section-center page-info">
-        
-        <p>
+        <!-- <p>
           If you are looking to get ahold of me, you can send me an email at
-          <a href="#">@your_email</a>
-        </p>
+          <a href="">@your_email</a>
+        </p> -->
+        <div class="contact-container">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="contact-left"
+          >
+            <div class="contact-left-tittle">
+              <h2>Get in touch</h2>
+              <div class="underline"></div>
+            </div>
+            <input
+              type="hidden"
+              name="access_key"
+              value="6ff0a176-b5a4-473c-9e47-360cf369df05"
+            />
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="contact-input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="contact-input"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              class="contact-input"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
         <p>
-          You can also reach me on Twitter at
-          <a href="#">@your_social_media </a>
+          You can also reach me on Telegram at
+          <a href="https://t.me/bekiclover">@your_social_media </a>
         </p>
       </div>
     </section>
-    
+
     <footer class="footer">
       <ul class="social-icons">
-          <li>
-            <a href="https://www.facebook.com/beki.sami.338/" class="social-icon">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/bereket-samuel-aa20372a2/" class="social-icon">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-           
-          <li>
-            <a href="https://www.instagram.com/bekiclover/" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://t.me/bekiclover" class="social-icon">
-              <i class="fab fa-telegram"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://discord.com/channels/@me" class="social-icon">
-              <i class="fab fa-discord"></i>
-            </a>
-          </li>
-        </ul>
+        <li>
+          <a href="https://www.facebook.com/beki.sami.338/" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/bereket-samuel-aa20372a2/"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/bekiclover/" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://t.me/bekiclover" class="social-icon">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://discord.com/channels/@me" class="social-icon">
+            <i class="fab fa-discord"></i>
+          </a>
+        </li>
+      </ul>
 
       <p>&copy; <span id="date"></span> Bereket Samuel. All rights reserved.</p>
     </footer>

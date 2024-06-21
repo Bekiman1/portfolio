@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../programming/tea-station/tea-station"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "portfolio"
+  }
+}
